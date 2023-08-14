@@ -4,6 +4,10 @@
 	<groupId>playwright</groupId>
 	<artifactId>playwright</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.microsoft.playwright</groupId>
@@ -17,32 +21,32 @@
 			<scope>compile</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java8</artifactId>
-    <version>7.13.0</version>
-</dependency>
- <!-- Report Portal Cucumber5 adapter -->
- <dependency>
-            <groupId>com.epam.reportportal</groupId>
-            <artifactId>agent-java-cucumber6</artifactId>
-            <version>5.2.0</version>
-        </dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>7.13.0</version>
+		</dependency>
+		<!-- Report Portal Cucumber5 adapter -->
+		<dependency>
+			<groupId>com.epam.reportportal</groupId>
+			<artifactId>agent-java-cucumber6</artifactId>
+			<version>5.2.0</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>6.9.1</version>
-<!-- 			<scope>test</scope> -->
-	        <scope>compile</scope>
+			<!-- <scope>test</scope> -->
+			<scope>compile</scope>
 		</dependency>
-<dependency>
-	<groupId>io.cucumber</groupId>
-	<artifactId>cucumber-core</artifactId>
-	<version>6.8.2</version>
-</dependency>
-<!-- Thanks for using https://jar-download.com -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>6.8.2</version>
+		</dependency>
+		<!-- Thanks for using https://jar-download.com -->
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
 		<dependency>
@@ -73,17 +77,17 @@
 			<artifactId>poi</artifactId>
 			<version>5.2.3</version>
 		</dependency>
- <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.9.7</version>
-        </dependency>
-         <!-- Allure -->
-<dependency>
-    <groupId>io.qameta.allure</groupId>
-    <artifactId>allure-cucumber-jvm</artifactId>
-    <version>2.0-BETA16</version>
-</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+		<!-- Allure -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-cucumber-jvm</artifactId>
+			<version>2.0-BETA16</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -113,13 +117,13 @@
 					<includes>
 						<include>**/*Runner*.class</include>
 					</includes>
-					 <properties>
-                   <configuration>
-                    <argLine>
-                        -Dcucumber.options="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
-                    </argLine>
-                </configuration>
-                </properties>
+					<properties>
+						<configuration>
+							<argLine>
+								-Dcucumber.options="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
+							</argLine>
+						</configuration>
+					</properties>
 					<!-- <systemPropertyVariables> <executionMode>Local</executionMode> 
 						<browser>Chromium</browser> <applicationUrl>https://www.saucedemo.com/</applicationUrl> 
 						<remoteUrl></remoteUrl> </systemPropertyVariables> -->
