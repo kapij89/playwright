@@ -46,7 +46,6 @@ jobs:
         uses: cinotify/github-action@v1.1.2
         with:
           to: 'kapildev.jagadishprasad@expleogroup.com'
-      - name: Cucumber json reports
       - uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
