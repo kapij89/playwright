@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -40,8 +41,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cucumber-html-report
-          path: target/cucumber-reports.html   
-notifications:
-  email:
-    recipients:
-      - kapildev.jagadishprasad@expleogroup.com
+          path: target/cucumber-reports.html
+      - name: CINotify Email
+        uses: cinotify/github-action@v1.1.2
+        with:
+          to: 'kapildev.jagadishprasad@expleogroup.com'
+          subject: 'Deploying main Branch'
+          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
