@@ -46,9 +46,16 @@ jobs:
         uses: cinotify/github-action@v1.1.2
         with:
           to: 'kapildev.jagadishprasad@expleogroup.com'
+          subject: 'Deploying main Branch'
+          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
       - uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
           path: "target/jsonreportt.json"
-          subject: 'Deploying main Branch'
-          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
+      - name: Notify Microsoft Teams
+        run: |
+          # Replace YOUR_WEBHOOK_URL with your actual Microsoft Teams webhook URL
+          curl -X POST -H "Content-Type: application/json" -d '{
+            "text": "GitHub Actions build completed successfully."
+          }' https://ardianet.webhook.office.com/webhookb2/3af26022-eb51-44aa-a4b9-8ffef142bc48@3b0e7247-e0d5-44bf-8ed1-d01b18d16ca2/IncomingWebhook/d2b6789dfb654166ab59b503d4eef823/eced495d-0bd4-4576-8f3c-7491aa4b95cb    
+          
