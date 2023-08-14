@@ -29,3 +29,15 @@ jobs:
         with:
           name: test-results
           path: target/junitreport.xml
+      - name: Generate Cucumber Report
+        run: |
+          # Generate your Cucumber HTML report here
+          # Replace the following line with the actual command to generate the report
+          echo "Generating Cucumber HTML report"
+        working-directory: target
+
+      - name: Publish Cucumber Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: cucumber-html-report
+          path: target/cucumber-reports.html   
