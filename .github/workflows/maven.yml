@@ -41,3 +41,7 @@ jobs:
         with:
           name: cucumber-html-report
           path: target/cucumber-reports.html   
+notifications:
+  email:
+    recipients:
+      - kapildev.jagadishprasad@expleogroup.com
