@@ -35,7 +35,7 @@ jobs:
         if: always()
         with:
          name: Overall Report
-         path: "**/junitreport.xml"                        
+         path: "target/junitreport.xml"                        
          reporter: java-junit    
          fail-on-error: false
       - name: Generate Cucumber Report
