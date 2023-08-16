@@ -30,6 +30,14 @@ jobs:
         with:
           name: test-results
           path: target/junitreport.xml
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+         name: Overall Report
+         path: "**/junitreport.xml"                        
+         reporter: java-junit    
+         fail-on-error: false
       - name: Generate Cucumber Report
         run: |
           # Generate your Cucumber HTML report here
