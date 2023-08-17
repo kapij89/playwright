@@ -14,6 +14,11 @@
 			<artifactId>playwright</artifactId>
 			<version>1.36.0</version>
 		</dependency>
+		 <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.9.1</version>
+    </dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -124,9 +129,7 @@
 					</includes>
 					<properties>
 						<configuration>
-							<argLine>
-								-Dcucumber.options="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
-							</argLine>
+						    <cucumber.options>${cucumber.options}</cucumber.options>
 						</configuration>
 					</properties>
 					<!-- <systemPropertyVariables> <executionMode>Local</executionMode> 

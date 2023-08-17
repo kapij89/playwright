@@ -12,7 +12,9 @@ import io.cucumber.junit.CucumberOptions;
         features = "src/test/resources/features/",
         glue = {"stepdefinitions"},
         plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports.html",
-        		 "rerun:target/rerun.txt"  } // Save Failed test scenarios in rerun.txt file}
+        		 "rerun:target/rerun.txt"  },
+        tags=""
+        		// Save Failed test scenarios in rerun.txt file}
         
 )
 public class TestRunner {

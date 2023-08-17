@@ -52,7 +52,7 @@ public abstract class BasePage {
 		// To Slow Down Execution
 		if (ConfigReader.getProperty("platform").equalsIgnoreCase("Mobile")) {
 			// playwright = Playwright.create();
-			Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+			Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 			BrowserContext context = browser.newContext(
 					new Browser.NewContextOptions().setViewportSize(375, 812).setDeviceScaleFactor(2).setUserAgent(
 							"Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1"));
@@ -62,13 +62,13 @@ public abstract class BasePage {
 			// Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0
 			// Mobile/15E148 Safari/604.1");
 		} else if (ConfigReader.getProperty("platform").equalsIgnoreCase("WebKit")) {
-			 Browser browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(true));
+			 Browser browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
 	            BrowserContext context = browser.newContext(new Browser.NewContextOptions()
 	                    .setViewportSize(1200, 800)
 	                    .setUserAgent("Custom Webkit"));
 	             page = context.newPage();
 		}else{
-			browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(true).setSlowMo(50));
+			browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(50));
 			page = browser.newPage();
 		}
 		// Recording Trace for webSite

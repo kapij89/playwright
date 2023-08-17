@@ -3,6 +3,8 @@ package stepdefinitions;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
@@ -27,11 +29,12 @@ public class steps extends BasePage{
 	LoginPage loginPage;
 	ItemsPage itemsPage;
 	CheckoutPage checkoutPage;
-	
+	  boolean captureScreenshot;
 	Page page;
-	
+
 	@Given("^User launched SwagLabs application$")
 	public void user_launched_swaglabs_application() {
+		 captureScreenshot = true;
 		try {
 //			BrowserContext context = browser.newContext();
 //			context.tracing().start(new Tracing.StartOptions()
@@ -91,11 +94,14 @@ public class steps extends BasePage{
 //    }
 	@AfterStep
     public void captureScreenshotAfterStep(Scenario scenario) {
-        // Capture screenshot
+      
+		// Capture screenshot
 //        Page page = browser.newPage();
+		if (captureScreenshot) {
 		 byte[] screenshot = page.screenshot(new Page.ScreenshotOptions());
 		 scenario.attach(screenshot, "image/png", "screenshot.png");
 //        page.close();
+		}
     }
 	@After
 	public void tearDown(Scenario scenario) {
