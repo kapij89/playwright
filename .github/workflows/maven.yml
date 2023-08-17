@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -8,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+     id-token: write
+     contents: read
+     checks: write
 
     steps:
       - name: Checkout code
@@ -20,12 +25,53 @@ jobs:
 
       - name: Build and Test
         run: |
-          mvn clean test
+          mvn clean package
         env:
           CI: true
-
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+         name: Overall Report
+         path: "**/junitreport.xml"                        
+         reporter: java-junit    
+         fail-on-error: false
       - name: Publish Test Results
         uses: actions/upload-artifact@v2
         with:
           name: test-results
           path: target/junitreport.xml
+      - name: Generate Cucumber Report
+        run: |
+          # Generate your Cucumber HTML report here
+          # Replace the following line with the actual command to generate the report
+          echo "Generating Cucumber HTML report"
+        working-directory: target
+
+      - name: Publish Cucumber Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: cucumber-html-report
+          path: target/cucumber-reports.html
+      - name: Upload JAR Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: playwright-testautomation-jar
+          path: target/*.jar   
+      - name: CINotify Email
+        uses: cinotify/github-action@v1.1.2
+        with:
+          to: 'kapildev.jagadishprasad@expleogroup.com'
+          subject: 'Deploying main Branch'
+          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
+      - uses: deblockt/cucumber-report-annotations-action@v1.7
+        with:
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          path: "target/jsonreportt.json"
+      - name: Notify Microsoft Teams
+        run: |
+          # Replace YOUR_WEBHOOK_URL with your actual Microsoft Teams webhook URL
+          curl -X POST -H "Content-Type: application/json" -d '{
+            "text": "Automated Message:Test Automation build completed successfully.Reach out @kapildev.jagadishprasad@expleogroup.com for more info."
+          }' https://ardianet.webhook.office.com/webhookb2/3af26022-eb51-44aa-a4b9-8ffef142bc48@3b0e7247-e0d5-44bf-8ed1-d01b18d16ca2/IncomingWebhook/d2b6789dfb654166ab59b503d4eef823/eced495d-0bd4-4576-8f3c-7491aa4b95cb    
+          
