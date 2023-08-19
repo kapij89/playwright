@@ -74,4 +74,36 @@ jobs:
           curl -X POST -H "Content-Type: application/json" -d '{
             "text": "Automated Message:Test Automation build completed successfully.Reach out @kapildev.jagadishprasad@expleogroup.com for more info."
           }' https://ardianet.webhook.office.com/webhookb2/3af26022-eb51-44aa-a4b9-8ffef142bc48@3b0e7247-e0d5-44bf-8ed1-d01b18d16ca2/IncomingWebhook/d2b6789dfb654166ab59b503d4eef823/eced495d-0bd4-4576-8f3c-7491aa4b95cb    
-          
+
+      - uses: actions/upload-artifact@master
+        with:
+         name: allure-results
+         path: allure-results
+         retention-days: 20
+        
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+         ref: gh-pages
+         path: gh-pages
+    
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+         allure_results: allure-results
+         gh_pages: gh-pages
+         allure_report: allure-report
+         allure_history: allure-history
+         keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         PUBLISH_BRANCH: gh-pages
+         PUBLISH_DIR: allure-history
