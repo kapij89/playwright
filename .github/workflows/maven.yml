@@ -33,14 +33,9 @@ jobs:
         with:
           java-version: '11'
 
-      - name: Build
+      - name: Mvn Build and Test
         run: |
           mvn clean package
-        env:
-          CI: true
-      - name: Mvn Test
-        run: |
-          mvn clean test
         env:
           CI: true
       - name: Allure report generate
@@ -74,7 +69,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cucumber-html-report
-          path: target/cucumber-reports.html
+          path: target/cucumber-reports
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -85,16 +80,10 @@ jobs:
         with:
           name: Allure Artificat
           path: target/results
-      - name: CINotify Email
-        uses: cinotify/github-action@v1.1.2
-        with:
-          to: 'kapildev.jagadishprasad@expleogroup.com'
-          subject: 'Deploying main Branch'
-          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
       - uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          path: "target/jsonreportt.json"
+          path: "target/jsonreport.json"
       - name: Notify Microsoft Teams
         run: |
           # Replace YOUR_WEBHOOK_URL with your actual Microsoft Teams webhook URL
@@ -115,15 +104,18 @@ jobs:
         if: always()
         id: allure-report
         with:
-          allure_results: target\results\
+          allure_results: allure-results
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
-
-      - name: Deploy report to Github Pages
+      - name: Build and Generate Allure Report
+        run: |
+          # Replace these commands with your build and allure report generation commands
+          mvn allure:report
+      - name: Publish Allure Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+          PUBLISH_DIR: target/results/allure-report
