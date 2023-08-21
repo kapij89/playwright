@@ -1,0 +1,55 @@
+{
+  "uid" : "deafe7025812936c",
+  "name" : "Buy a SwagLabs product successfully",
+  "fullName" : "Buy Product.Buy a SwagLabs product successfully",
+  "historyId" : "d1ce2a7d12a1f1be5b150066d1dbf23c",
+  "time" : {
+    "start" : 1692619031605,
+    "stop" : 1692619035548,
+    "duration" : 3943
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "Buy Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Buy a SwagLabs product successfully"
+  }, {
+    "name" : "suite",
+    "value" : "Buy Product"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1234-158"
+  }, {
+    "name" : "thread",
+    "value" : "2954@fv-az1234-158.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deafe7025812936c.json",
+  "parameterValues" : [ ]
+}

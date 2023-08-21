@@ -1,0 +1,55 @@
+{
+  "uid" : "37f979bb6d0118a1",
+  "name" : "Get User by ID",
+  "fullName" : "Get User By ID using API.Get User by ID",
+  "historyId" : "f52a29b96717d8cd462f7c3cd7a642b7",
+  "time" : {
+    "start" : 1692619030806,
+    "stop" : 1692619031495,
+    "duration" : 689
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "Get User By ID using API"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get User by ID"
+  }, {
+    "name" : "suite",
+    "value" : "Get User By ID using API"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1234-158"
+  }, {
+    "name" : "thread",
+    "value" : "2954@fv-az1234-158.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37f979bb6d0118a1.json",
+  "parameterValues" : [ ]
+}
