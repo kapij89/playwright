@@ -33,12 +33,7 @@ jobs:
         with:
           java-version: '11'
 
-      - name: Build
-        run: |
-          mvn clean package
-        env:
-          CI: true
-      - name: Mvn Test
+      - name: Mvn Build and Test
         run: |
           mvn clean test
         env:
