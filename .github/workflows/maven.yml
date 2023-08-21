@@ -14,7 +14,10 @@ jobs:
      contents: read
      checks: write
      pages: write
-     packages : write
+     packages: write
+     pull-requests: write
+     issues: write
+     repository-projects: write
 
     steps:
       - name: Checkout code
