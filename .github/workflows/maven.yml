@@ -9,15 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-     id-token: write
-     contents: read
-     checks: write
-     pages: write
-     packages: write
-     pull-requests: write
-     issues: write
-     repository-projects: write
+    permissions: write-all
 
     steps:
       - name: Checkout code
