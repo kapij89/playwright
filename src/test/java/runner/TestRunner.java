@@ -31,7 +31,7 @@ public class TestRunner {
               FileOutputStream fos = new FileOutputStream("target/results/allure-results/environment.properties");
               Properties properties = new Properties();
               properties.put("Browser", ConfigReader.getProperty("browser"));
-              properties.put("Browser.version", "12");
+//              properties.put("Browser.version", "12");
               properties.put("Stand", "Test");
               properties.store(fos, "Allure Environment Properties");
               fos.flush();
