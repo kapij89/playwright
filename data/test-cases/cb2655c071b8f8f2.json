@@ -1,12 +1,12 @@
 {
-  "uid" : "cdd6650ac52d81c8",
-  "name" : "Get User by ID",
-  "fullName" : "Get User By ID using API.Get User by ID",
-  "historyId" : "f52a29b96717d8cd462f7c3cd7a642b7",
+  "uid" : "cb2655c071b8f8f2",
+  "name" : "Buy a SwagLabs product successfully",
+  "fullName" : "Buy Product.Buy a SwagLabs product successfully",
+  "historyId" : "d1ce2a7d12a1f1be5b150066d1dbf23c",
   "time" : {
-    "start" : 1692619275646,
-    "stop" : 1692619276318,
-    "duration" : 672
+    "start" : 1692624960849,
+    "stop" : 1692624983691,
+    "duration" : 22842
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,19 +17,19 @@
     "value" : ""
   }, {
     "name" : "testClass",
-    "value" : "Get User By ID using API"
+    "value" : "Buy Product"
   }, {
     "name" : "testMethod",
-    "value" : "Get User by ID"
+    "value" : "Buy a SwagLabs product successfully"
   }, {
     "name" : "suite",
-    "value" : "Get User By ID using API"
+    "value" : "Buy Product"
   }, {
     "name" : "host",
-    "value" : "fv-az456-621"
+    "value" : "fv-az169-105"
   }, {
     "name" : "thread",
-    "value" : "2342@fv-az456-621.main(1)"
+    "value" : "2909@fv-az169-105.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cdd6650ac52d81c8.json",
+  "source" : "cb2655c071b8f8f2.json",
   "parameterValues" : [ ]
 }

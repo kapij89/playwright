@@ -1,12 +1,12 @@
 {
-  "uid" : "f4361899318785a6",
+  "uid" : "7fd7cb6b3f3bcef4",
   "name" : "Buy a SwagLabs product successfully",
   "fullName" : "Buy Product: Buy a SwagLabs product successfully",
   "historyId" : "a08e5dc16d789a41249766f73e751457",
   "time" : {
-    "start" : 1692619276432,
-    "stop" : 1692619296471,
-    "duration" : 20039
+    "start" : 1692624960861,
+    "stop" : 1692624983692,
+    "duration" : 22831
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692619276433,
-        "stop" : 1692619294921,
-        "duration" : 18488
+        "start" : 1692624960861,
+        "stop" : 1692624981911,
+        "duration" : 21050
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,9 +31,9 @@
     }, {
       "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692619295102,
-        "stop" : 1692619295348,
-        "duration" : 246
+        "start" : 1692624982107,
+        "stop" : 1692624982432,
+        "duration" : 325
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,9 +46,9 @@
     }, {
       "name" : "And  User adds \"Sauce Labs Fleece Jacket\" product to the cart",
       "time" : {
-        "start" : 1692619295529,
-        "stop" : 1692619295711,
-        "duration" : 182
+        "start" : 1692624982630,
+        "stop" : 1692624982829,
+        "duration" : 199
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,9 +61,9 @@
     }, {
       "name" : "And  User enters Checkout details with \"Ashish\", \"Ghosh\", \"1181\"",
       "time" : {
-        "start" : 1692619295850,
-        "stop" : 1692619295921,
-        "duration" : 71
+        "start" : 1692624982980,
+        "stop" : 1692624983062,
+        "duration" : 82
       },
       "status" : "passed",
       "steps" : [ ],
@@ -76,9 +76,9 @@
     }, {
       "name" : "And  User completes Checkout process",
       "time" : {
-        "start" : 1692619296045,
-        "stop" : 1692619296173,
-        "duration" : 128
+        "start" : 1692624983215,
+        "stop" : 1692624983362,
+        "duration" : 147
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,9 +91,9 @@
     }, {
       "name" : "Then  User should get the Confirmation of Order",
       "time" : {
-        "start" : 1692619296299,
-        "stop" : 1692619296310,
-        "duration" : 11
+        "start" : 1692624983511,
+        "stop" : 1692624983518,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,16 +114,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619294922,
-      "stop" : 1692619295102,
-      "duration" : 180
+      "start" : 1692624981911,
+      "stop" : 1692624982107,
+      "duration" : 196
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "84cf9ef2c341e4c",
+      "uid" : "a779f423809c178b",
       "name" : "Screenshot",
-      "source" : "84cf9ef2c341e4c.png",
+      "source" : "a779f423809c178b.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -135,16 +135,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619295349,
-      "stop" : 1692619295529,
-      "duration" : 180
+      "start" : 1692624982433,
+      "stop" : 1692624982630,
+      "duration" : 197
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3fcdae0d4f7acee8",
+      "uid" : "6a914789fea004d",
       "name" : "Screenshot",
-      "source" : "3fcdae0d4f7acee8.png",
+      "source" : "6a914789fea004d.png",
       "type" : "image/png",
       "size" : 148343
     } ],
@@ -156,16 +156,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619295712,
-      "stop" : 1692619295850,
-      "duration" : 138
+      "start" : 1692624982829,
+      "stop" : 1692624982979,
+      "duration" : 150
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4835766dbbaf60e6",
+      "uid" : "208647b6deac8736",
       "name" : "Screenshot",
-      "source" : "4835766dbbaf60e6.png",
+      "source" : "208647b6deac8736.png",
       "type" : "image/png",
       "size" : 67231
     } ],
@@ -177,16 +177,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619295921,
-      "stop" : 1692619296045,
-      "duration" : 124
+      "start" : 1692624983063,
+      "stop" : 1692624983215,
+      "duration" : 152
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "992332555b6c26b8",
+      "uid" : "45579f972325d732",
       "name" : "Screenshot",
-      "source" : "992332555b6c26b8.png",
+      "source" : "45579f972325d732.png",
       "type" : "image/png",
       "size" : 61603
     } ],
@@ -198,16 +198,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619296174,
-      "stop" : 1692619296299,
-      "duration" : 125
+      "start" : 1692624983363,
+      "stop" : 1692624983511,
+      "duration" : 148
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "75ed286b2418f89b",
+      "uid" : "18afa741e43696f4",
       "name" : "Screenshot",
-      "source" : "75ed286b2418f89b.png",
+      "source" : "18afa741e43696f4.png",
       "type" : "image/png",
       "size" : 77632
     } ],
@@ -219,16 +219,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692619296310,
-      "stop" : 1692619296452,
-      "duration" : 142
+      "start" : 1692624983519,
+      "stop" : 1692624983673,
+      "duration" : 154
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "432fdc6362c2c4f9",
+      "uid" : "dd2d7aabfc0ef967",
       "name" : "Screenshot",
-      "source" : "432fdc6362c2c4f9.png",
+      "source" : "dd2d7aabfc0ef967.png",
       "type" : "image/png",
       "size" : 77632
     } ],
@@ -238,11 +238,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "ApiStepDefinitions.closeResponse()",
+    "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692619296452,
-      "stop" : 1692619296453,
-      "duration" : 1
+      "start" : 1692624983673,
+      "stop" : 1692624983687,
+      "duration" : 14
     },
     "status" : "passed",
     "steps" : [ ],
@@ -253,11 +253,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "steps.tearDown(Scenario)",
+    "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692619296453,
-      "stop" : 1692619296470,
-      "duration" : 17
+      "start" : 1692624983687,
+      "stop" : 1692624983689,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
@@ -273,10 +273,10 @@
     "value" : "End2End"
   }, {
     "name" : "host",
-    "value" : "fv-az456-621"
+    "value" : "fv-az169-105"
   }, {
     "name" : "thread",
-    "value" : "2342@fv-az456-621.main(1)"
+    "value" : "2909@fv-az169-105.main(1)"
   }, {
     "name" : "feature",
     "value" : "Buy Product"
@@ -333,6 +333,6 @@
     "categories" : [ ],
     "tags" : [ "End2End" ]
   },
-  "source" : "f4361899318785a6.json",
+  "source" : "7fd7cb6b3f3bcef4.json",
   "parameterValues" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
 }

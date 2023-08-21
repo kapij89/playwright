@@ -1,12 +1,12 @@
 {
-  "uid" : "9ce873df13207a3a",
-  "name" : "Login to SwagLabs Application with Correct credentials",
-  "fullName" : "Login.Login to SwagLabs Application with Correct credentials",
-  "historyId" : "ce972c10a1e873f66a6d1de4fe55bfc3",
+  "uid" : "1f72eb7b474d6114",
+  "name" : "Get User by ID",
+  "fullName" : "Get User By ID using API.Get User by ID",
+  "historyId" : "f52a29b96717d8cd462f7c3cd7a642b7",
   "time" : {
-    "start" : 1692619296490,
-    "stop" : 1692619298040,
-    "duration" : 1550
+    "start" : 1692624960028,
+    "stop" : 1692624960750,
+    "duration" : 722
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,19 +17,19 @@
     "value" : ""
   }, {
     "name" : "testClass",
-    "value" : "Login"
+    "value" : "Get User By ID using API"
   }, {
     "name" : "testMethod",
-    "value" : "Login to SwagLabs Application with Correct credentials"
+    "value" : "Get User by ID"
   }, {
     "name" : "suite",
-    "value" : "Login"
+    "value" : "Get User By ID using API"
   }, {
     "name" : "host",
-    "value" : "fv-az456-621"
+    "value" : "fv-az169-105"
   }, {
     "name" : "thread",
-    "value" : "2342@fv-az456-621.main(1)"
+    "value" : "2909@fv-az169-105.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9ce873df13207a3a.json",
+  "source" : "1f72eb7b474d6114.json",
   "parameterValues" : [ ]
 }
