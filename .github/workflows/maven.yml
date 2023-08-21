@@ -94,7 +94,7 @@ jobs:
       - uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          path: "target/jsonreportt.json"
+          path: "target/jsonreport.json"
       - name: Notify Microsoft Teams
         run: |
           # Replace YOUR_WEBHOOK_URL with your actual Microsoft Teams webhook URL
@@ -119,11 +119,14 @@ jobs:
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
-
-      - name: Deploy report to Github Pages
+      - name: Build and Generate Allure Report
+        run: |
+          # Replace these commands with your build and allure report generation commands
+          mvn allure:report
+      - name: Publish Allure Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+          PUBLISH_DIR: target/results/allure-report
