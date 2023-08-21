@@ -80,6 +80,11 @@ jobs:
         with:
           name: playwright-testautomation-jar
           path: target/*.jar   
+      - name: Upload allure Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Allure Artificat
+          path: target/results
       - name: CINotify Email
         uses: cinotify/github-action@v1.1.2
         with:
