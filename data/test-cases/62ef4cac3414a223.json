@@ -1,12 +1,12 @@
 {
-  "uid" : "cb2655c071b8f8f2",
-  "name" : "Buy a SwagLabs product successfully",
-  "fullName" : "Buy Product.Buy a SwagLabs product successfully",
-  "historyId" : "d1ce2a7d12a1f1be5b150066d1dbf23c",
+  "uid" : "62ef4cac3414a223",
+  "name" : "Login to SwagLabs Application with Wrong credentials",
+  "fullName" : "Login.Login to SwagLabs Application with Wrong credentials",
+  "historyId" : "ec59bfc4a769d11ae4b6096d283aee15",
   "time" : {
-    "start" : 1692624960849,
-    "stop" : 1692624983691,
-    "duration" : 22842
+    "start" : 1692625985655,
+    "stop" : 1692625987207,
+    "duration" : 1552
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,19 +17,19 @@
     "value" : ""
   }, {
     "name" : "testClass",
-    "value" : "Buy Product"
+    "value" : "Login"
   }, {
     "name" : "testMethod",
-    "value" : "Buy a SwagLabs product successfully"
+    "value" : "Login to SwagLabs Application with Wrong credentials"
   }, {
     "name" : "suite",
-    "value" : "Buy Product"
+    "value" : "Login"
   }, {
     "name" : "host",
-    "value" : "fv-az169-105"
+    "value" : "fv-az177-716"
   }, {
     "name" : "thread",
-    "value" : "2909@fv-az169-105.main(1)"
+    "value" : "2936@fv-az177-716.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cb2655c071b8f8f2.json",
+  "source" : "62ef4cac3414a223.json",
   "parameterValues" : [ ]
 }
