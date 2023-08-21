@@ -1,5 +1,5 @@
 
-name: CI
+name: Playwright-CI
 
 on:
   push:
