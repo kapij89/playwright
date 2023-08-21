@@ -1,12 +1,12 @@
 {
-  "uid" : "62ef4cac3414a223",
+  "uid" : "6cce01b8e6dee8c7",
   "name" : "Login to SwagLabs Application with Wrong credentials",
   "fullName" : "Login.Login to SwagLabs Application with Wrong credentials",
   "historyId" : "ec59bfc4a769d11ae4b6096d283aee15",
   "time" : {
-    "start" : 1692625985655,
-    "stop" : 1692625987207,
-    "duration" : 1552
+    "start" : 1692626410031,
+    "stop" : 1692626411410,
+    "duration" : 1379
   },
   "status" : "passed",
   "flaky" : false,
@@ -26,10 +26,10 @@
     "value" : "Login"
   }, {
     "name" : "host",
-    "value" : "fv-az177-716"
+    "value" : "fv-az414-594"
   }, {
     "name" : "thread",
-    "value" : "2936@fv-az177-716.main(1)"
+    "value" : "2830@fv-az414-594.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "62ef4cac3414a223.json",
+  "source" : "6cce01b8e6dee8c7.json",
   "parameterValues" : [ ]
 }

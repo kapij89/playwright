@@ -1,12 +1,12 @@
 {
-  "uid" : "fd914599208f477f",
+  "uid" : "cfee323c0fc6962d",
   "name" : "Login to SwagLabs Application with Correct credentials",
   "fullName" : "Login: Login to SwagLabs Application with Correct credentials",
   "historyId" : "bd64c0b9befe417a38e4267406c918c4",
   "time" : {
-    "start" : 1692625984017,
-    "stop" : 1692625985646,
-    "duration" : 1629
+    "start" : 1692626408417,
+    "stop" : 1692626410028,
+    "duration" : 1611
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692625984017,
-        "stop" : 1692625984872,
-        "duration" : 855
+        "start" : 1692626408417,
+        "stop" : 1692626409202,
+        "duration" : 785
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,9 +31,9 @@
     }, {
       "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692625985036,
-        "stop" : 1692625985276,
-        "duration" : 240
+        "start" : 1692626409406,
+        "stop" : 1692626409636,
+        "duration" : 230
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,9 +46,9 @@
     }, {
       "name" : "Then  user should be able to log in",
       "time" : {
-        "start" : 1692625985456,
-        "stop" : 1692625985467,
-        "duration" : 11
+        "start" : 1692626409819,
+        "stop" : 1692626409825,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,16 +69,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692625984872,
-      "stop" : 1692625985036,
-      "duration" : 164
+      "start" : 1692626409203,
+      "stop" : 1692626409406,
+      "duration" : 203
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c86cc4a7052b7bf4",
+      "uid" : "80213ac75f7329f3",
       "name" : "Screenshot",
-      "source" : "c86cc4a7052b7bf4.png",
+      "source" : "80213ac75f7329f3.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -90,16 +90,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692625985276,
-      "stop" : 1692625985456,
-      "duration" : 180
+      "start" : 1692626409637,
+      "stop" : 1692626409818,
+      "duration" : 181
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ca4eba2a5d8bef66",
+      "uid" : "f06d86e5a3d2fe29",
       "name" : "Screenshot",
-      "source" : "ca4eba2a5d8bef66.png",
+      "source" : "f06d86e5a3d2fe29.png",
       "type" : "image/png",
       "size" : 148343
     } ],
@@ -111,16 +111,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692625985467,
-      "stop" : 1692625985636,
-      "duration" : 169
+      "start" : 1692626409825,
+      "stop" : 1692626410018,
+      "duration" : 193
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ff4be1036c113645",
+      "uid" : "df43402d6b431107",
       "name" : "Screenshot",
-      "source" : "ff4be1036c113645.png",
+      "source" : "df43402d6b431107.png",
       "type" : "image/png",
       "size" : 148343
     } ],
@@ -132,8 +132,8 @@
   }, {
     "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692625985636,
-      "stop" : 1692625985644,
+      "start" : 1692626410018,
+      "stop" : 1692626410026,
       "duration" : 8
     },
     "status" : "passed",
@@ -147,9 +147,9 @@
   }, {
     "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692625985644,
-      "stop" : 1692625985645,
-      "duration" : 1
+      "start" : 1692626410027,
+      "stop" : 1692626410027,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -162,10 +162,10 @@
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az177-716"
+    "value" : "fv-az414-594"
   }, {
     "name" : "thread",
-    "value" : "2936@fv-az177-716.main(1)"
+    "value" : "2830@fv-az414-594.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login"
@@ -210,6 +210,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fd914599208f477f.json",
+  "source" : "cfee323c0fc6962d.json",
   "parameterValues" : [ "secret_sauce", "standard_user" ]
 }

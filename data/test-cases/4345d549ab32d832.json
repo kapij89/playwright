@@ -1,12 +1,12 @@
 {
-  "uid" : "c3592a60febc3899",
+  "uid" : "4345d549ab32d832",
   "name" : "Get User by ID",
   "fullName" : "Get User By ID using API: Get User by ID",
   "historyId" : "bef32f5a7841ac0b0b37eb77d2bdbec8",
   "time" : {
-    "start" : 1692625959609,
-    "stop" : 1692625960429,
-    "duration" : 820
+    "start" : 1692626390144,
+    "stop" : 1692626390854,
+    "duration" : 710
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  the API base URL is \"https://jsonplaceholder.typicode.com\"",
       "time" : {
-        "start" : 1692625959612,
-        "stop" : 1692625959932,
-        "duration" : 320
+        "start" : 1692626390147,
+        "stop" : 1692626390419,
+        "duration" : 272
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,9 +31,9 @@
     }, {
       "name" : "When  I send a GET request to \"/users/1\"",
       "time" : {
-        "start" : 1692625959936,
-        "stop" : 1692625960345,
-        "duration" : 409
+        "start" : 1692626390432,
+        "stop" : 1692626390779,
+        "duration" : 347
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "Then  the response status code should be 200",
       "time" : {
-        "start" : 1692625960346,
-        "stop" : 1692625960348,
+        "start" : 1692626390780,
+        "stop" : 1692626390782,
         "duration" : 2
       },
       "status" : "passed",
@@ -61,9 +61,9 @@
     }, {
       "name" : "And  the response should contain \"Leanne Graham\"",
       "time" : {
-        "start" : 1692625960349,
-        "stop" : 1692625960354,
-        "duration" : 5
+        "start" : 1692626390783,
+        "stop" : 1692626390787,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,9 +84,9 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692625959934,
-      "stop" : 1692625959936,
-      "duration" : 2
+      "start" : 1692626390428,
+      "stop" : 1692626390431,
+      "duration" : 3
     },
     "status" : "passed",
     "steps" : [ ],
@@ -99,39 +99,39 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692625960345,
-      "stop" : 1692625960346,
+      "start" : 1692626390780,
+      "stop" : 1692626390780,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.captureScreenshotAfterStep(Scenario)",
+    "time" : {
+      "start" : 1692626390782,
+      "stop" : 1692626390782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.captureScreenshotAfterStep(Scenario)",
+    "time" : {
+      "start" : 1692626390787,
+      "stop" : 1692626390788,
       "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "steps.captureScreenshotAfterStep(Scenario)",
-    "time" : {
-      "start" : 1692625960349,
-      "stop" : 1692625960349,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "steps.captureScreenshotAfterStep(Scenario)",
-    "time" : {
-      "start" : 1692625960355,
-      "stop" : 1692625960355,
-      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -144,8 +144,8 @@
   }, {
     "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692625960355,
-      "stop" : 1692625960355,
+      "start" : 1692626390788,
+      "stop" : 1692626390788,
       "duration" : 0
     },
     "status" : "passed",
@@ -159,8 +159,8 @@
   }, {
     "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692625960356,
-      "stop" : 1692625960356,
+      "start" : 1692626390788,
+      "stop" : 1692626390788,
       "duration" : 0
     },
     "status" : "passed",
@@ -177,10 +177,10 @@
     "value" : "userid"
   }, {
     "name" : "host",
-    "value" : "fv-az177-716"
+    "value" : "fv-az414-594"
   }, {
     "name" : "thread",
-    "value" : "2936@fv-az177-716.main(1)"
+    "value" : "2830@fv-az414-594.main(1)"
   }, {
     "name" : "feature",
     "value" : "Get User By ID using API"
@@ -219,6 +219,6 @@
     "categories" : [ ],
     "tags" : [ "userid" ]
   },
-  "source" : "c3592a60febc3899.json",
+  "source" : "4345d549ab32d832.json",
   "parameterValues" : [ ]
 }
