@@ -69,7 +69,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cucumber-html-report
-          path: target/cucumber-reports.html
+          path: target/cucumber-reports
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -80,12 +80,6 @@ jobs:
         with:
           name: Allure Artificat
           path: target/results
-      - name: CINotify Email
-        uses: cinotify/github-action@v1.1.2
-        with:
-          to: 'kapildev.jagadishprasad@expleogroup.com'
-          subject: 'Deploying main Branch'
-          body: 'This is a notification from GitHub actions.Please login into github to monitor Build'
       - uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
