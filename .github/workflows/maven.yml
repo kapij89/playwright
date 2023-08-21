@@ -33,11 +33,23 @@ jobs:
         with:
           java-version: '11'
 
-      - name: Build and Test
+      - name: Build
         run: |
           mvn clean package
         env:
           CI: true
+      - name: Mvn Test
+        run: |
+          mvn clean test
+        env:
+          CI: true
+      - name: Allure report generate
+        run: |
+          mvn allure:report
+        env:
+          CI: true
+
+      
       - name: Test Report
         uses: dorny/test-reporter@v1
         if: always()
