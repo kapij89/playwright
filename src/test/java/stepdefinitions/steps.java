@@ -1,25 +1,19 @@
 package stepdefinitions;
 
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
-
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Playwright;
 
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import pages.*;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.AfterStep;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+import pages.BasePage;
+import pages.CheckoutPage;
+import pages.ItemsPage;
+import pages.LoginPage;
 import utils.ConfigReader;
 //import com.epam.reportportal.example.cucumber6.Belly;
 
@@ -99,7 +93,8 @@ public class steps extends BasePage{
 //        Page page = browser.newPage();
 		if (captureScreenshot) {
 		 byte[] screenshot = page.screenshot(new Page.ScreenshotOptions());
-		 scenario.attach(screenshot, "image/png", "screenshot.png");
+//		 scenario.attach(screenshot, "image/png", "screenshot.png");
+		 scenario.embed(screenshot, "image/png");
 //        page.close();
 		}
     }
