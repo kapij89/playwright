@@ -1,12 +1,12 @@
 {
-  "uid" : "b0ffb429ff017ad6",
+  "uid" : "bc7dce350a3cbde6",
   "name" : "Login to SwagLabs Application with Correct credentials",
   "fullName" : "Login: Login to SwagLabs Application with Correct credentials",
   "historyId" : "bd64c0b9befe417a38e4267406c918c4",
   "time" : {
-    "start" : 1692628178625,
-    "stop" : 1692628180251,
-    "duration" : 1626
+    "start" : 1692633348379,
+    "stop" : 1692633349709,
+    "duration" : 1330
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692628178625,
-        "stop" : 1692628179487,
-        "duration" : 862
+        "start" : 1692633348380,
+        "stop" : 1692633349036,
+        "duration" : 656
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,9 +31,9 @@
     }, {
       "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692628179674,
-        "stop" : 1692628179878,
-        "duration" : 204
+        "start" : 1692633349189,
+        "stop" : 1692633349374,
+        "duration" : 185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,9 +46,9 @@
     }, {
       "name" : "Then  user should be able to log in",
       "time" : {
-        "start" : 1692628180044,
-        "stop" : 1692628180054,
-        "duration" : 10
+        "start" : 1692633349533,
+        "stop" : 1692633349538,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,16 +69,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692628179487,
-      "stop" : 1692628179674,
-      "duration" : 187
+      "start" : 1692633349036,
+      "stop" : 1692633349189,
+      "duration" : 153
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e47d1cfe0ae5228e",
+      "uid" : "bd4984ecae61f995",
       "name" : "Screenshot",
-      "source" : "e47d1cfe0ae5228e.png",
+      "source" : "bd4984ecae61f995.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -90,16 +90,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692628179879,
-      "stop" : 1692628180044,
-      "duration" : 165
+      "start" : 1692633349374,
+      "stop" : 1692633349533,
+      "duration" : 159
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "72a6501f45f63e31",
+      "uid" : "8cdb0207d6f08993",
       "name" : "Screenshot",
-      "source" : "72a6501f45f63e31.png",
+      "source" : "8cdb0207d6f08993.png",
       "type" : "image/png",
       "size" : 148343
     } ],
@@ -111,16 +111,16 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692628180054,
-      "stop" : 1692628180232,
-      "duration" : 178
+      "start" : 1692633349538,
+      "stop" : 1692633349697,
+      "duration" : 159
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "573634bce0987791",
+      "uid" : "36936d9d66da7421",
       "name" : "Screenshot",
-      "source" : "573634bce0987791.png",
+      "source" : "36936d9d66da7421.png",
       "type" : "image/png",
       "size" : 148343
     } ],
@@ -130,11 +130,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "ApiStepDefinitions.closeResponse()",
+    "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692628180232,
-      "stop" : 1692628180233,
-      "duration" : 1
+      "start" : 1692633349697,
+      "stop" : 1692633349702,
+      "duration" : 5
     },
     "status" : "passed",
     "steps" : [ ],
@@ -145,11 +145,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "steps.tearDown(Scenario)",
+    "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692628180233,
-      "stop" : 1692628180250,
-      "duration" : 17
+      "start" : 1692633349703,
+      "stop" : 1692633349703,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -162,10 +162,10 @@
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az360-370"
+    "value" : "fv-az245-386"
   }, {
     "name" : "thread",
-    "value" : "2852@fv-az360-370.main(1)"
+    "value" : "2973@fv-az245-386.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login"
@@ -210,6 +210,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b0ffb429ff017ad6.json",
+  "source" : "bc7dce350a3cbde6.json",
   "parameterValues" : [ "secret_sauce", "standard_user" ]
 }
