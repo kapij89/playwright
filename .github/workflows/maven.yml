@@ -13,6 +13,8 @@ jobs:
      id-token: write
      contents: read
      checks: write
+     pages: write
+     packages : write
 
     steps:
       - name: Checkout code
