@@ -1,109 +1,61 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az414-594",
+    "name" : "fv-az360-370",
     "children" : [ {
-      "name" : "2830@fv-az414-594.main(1)",
+      "name" : "2852@fv-az360-370.main(1)",
       "children" : [ {
-        "name" : "Login to SwagLabs Application with Correct credentials",
-        "uid" : "1fd8500249dbaeee",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
+        "name" : "Get User by ID",
+        "uid" : "b7f79d0ec8964af3",
+        "parentUid" : "4b7de0de333f224274bb4c39546e54e8",
         "status" : "passed",
         "time" : {
-          "start" : 1692626408415,
-          "stop" : 1692626410027,
-          "duration" : 1612
+          "start" : 1692628158619,
+          "stop" : 1692628159220,
+          "duration" : 601
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Buy a SwagLabs product successfully",
-        "uid" : "46199eb86d7e0318",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
+        "uid" : "79eb44b458b8fb6b",
+        "parentUid" : "4b7de0de333f224274bb4c39546e54e8",
         "status" : "passed",
         "time" : {
-          "start" : 1692626390870,
-          "stop" : 1692626408402,
-          "duration" : 17532
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Login to SwagLabs Application with Correct credentials",
-        "uid" : "cfee323c0fc6962d",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692626408417,
-          "stop" : 1692626410028,
-          "duration" : 1611
-        },
-        "flaky" : false,
-        "parameters" : [ "secret_sauce", "standard_user" ]
-      }, {
-        "name" : "Buy a SwagLabs product successfully",
-        "uid" : "caeff7defe94f1a0",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692626390875,
-          "stop" : 1692626408403,
-          "duration" : 17528
+          "start" : 1692628159328,
+          "stop" : 1692628178613,
+          "duration" : 19285
         },
         "flaky" : false,
         "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
       }, {
-        "name" : "Login to SwagLabs Application with Wrong credentials",
-        "uid" : "6cce01b8e6dee8c7",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
+        "name" : "Login to SwagLabs Application with Correct credentials",
+        "uid" : "b0ffb429ff017ad6",
+        "parentUid" : "4b7de0de333f224274bb4c39546e54e8",
         "status" : "passed",
         "time" : {
-          "start" : 1692626410031,
-          "stop" : 1692626411410,
-          "duration" : 1379
+          "start" : 1692628178625,
+          "stop" : 1692628180251,
+          "duration" : 1626
         },
         "flaky" : false,
-        "parameters" : [ ]
+        "parameters" : [ "secret_sauce", "standard_user" ]
       }, {
         "name" : "Login to SwagLabs Application with Wrong credentials",
-        "uid" : "17c1654eb75a117d",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
+        "uid" : "7f65cdb4d91d8244",
+        "parentUid" : "4b7de0de333f224274bb4c39546e54e8",
         "status" : "passed",
         "time" : {
-          "start" : 1692626410031,
-          "stop" : 1692626411411,
-          "duration" : 1380
+          "start" : 1692628180256,
+          "stop" : 1692628181643,
+          "duration" : 1387
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "locked_out_user" ]
-      }, {
-        "name" : "Get User by ID",
-        "uid" : "4345d549ab32d832",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692626390144,
-          "stop" : 1692626390854,
-          "duration" : 710
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Get User by ID",
-        "uid" : "954abdbf01397fdb",
-        "parentUid" : "31d95450ddbec58810982a8ec71f7749",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692626390123,
-          "stop" : 1692626390789,
-          "duration" : 666
-        },
-        "flaky" : false,
-        "parameters" : [ ]
       } ],
-      "uid" : "31d95450ddbec58810982a8ec71f7749"
+      "uid" : "4b7de0de333f224274bb4c39546e54e8"
     } ],
-    "uid" : "387f68cc720f2894c7556e68e02c2444"
+    "uid" : "c1eca223653a0da9483c3c65d8cf3d7e"
   } ],
   "name" : "timeline"
 }
