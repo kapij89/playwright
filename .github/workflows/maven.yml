@@ -35,7 +35,7 @@ jobs:
 
       - name: Mvn Build and Test
         run: |
-          mvn clean test
+          mvn clean package
         env:
           CI: true
       - name: Allure report generate
