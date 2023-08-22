@@ -41,6 +41,7 @@ jobs:
           else
           echo "is neither MAIN nor DEV branch"
           mvn clean package -Pparallel-disabled
+          fi
         env:
           CI: true
       - name: Allure report generate
