@@ -13,7 +13,7 @@ import cucumber.api.java.en.*;
 
 import static org.junit.Assert.*;
 
-public class RestApiStepDefinitions {
+public class ApiStepDefinitions {
 
     private final OkHttpClient httpClient = new OkHttpClient();
 
