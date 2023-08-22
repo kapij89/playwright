@@ -35,7 +35,7 @@ jobs:
 
       - name: Mvn Build and Test
         run: |
-          if [${{ vars.PARALLELMODE }}==true ]; then
+          if [${{ vars.PARALLELMODE }} == true ]; then
           echo "Parallel Mode on"
           mvn clean package -Pparallel-enabled
           else
