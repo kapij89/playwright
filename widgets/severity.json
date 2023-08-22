@@ -1,0 +1,41 @@
+[ {
+  "uid" : "562c16b23114a4db",
+  "name" : "Get User by ID",
+  "time" : {
+    "start" : 1692687364064,
+    "stop" : 1692687364837,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6b22609f3c5a15",
+  "name" : "Buy a SwagLabs product successfully",
+  "time" : {
+    "start" : 1692687364943,
+    "stop" : 1692687388590,
+    "duration" : 23647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fea1d38c7c006af",
+  "name" : "Login to SwagLabs Application with Correct credentials",
+  "time" : {
+    "start" : 1692687388599,
+    "stop" : 1692687390200,
+    "duration" : 1601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f69dd44c4a14539c",
+  "name" : "Login to SwagLabs Application with Wrong credentials",
+  "time" : {
+    "start" : 1692687390207,
+    "stop" : 1692687391732,
+    "duration" : 1525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
