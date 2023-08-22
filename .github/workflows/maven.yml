@@ -39,7 +39,7 @@ jobs:
           echo "Parallel Mode on"
           mvn clean package -Pparallel-enabled
           else
-          echo "is neither MAIN nor DEV branch"
+          echo "Parallel Mode off"
           mvn clean package -Pparallel-disabled
           fi
         env:
