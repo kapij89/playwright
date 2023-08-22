@@ -13,7 +13,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        api-level: [25]  
+        api-level: [28]  
         target: [default]
     steps:
     - uses: actions/checkout@v2
@@ -25,11 +25,14 @@ jobs:
       with:
        node-version: '12'
     - run: |
-            npm install -g appium@v1.20.2
+            npm install -g appium@next
+            appium driver install xcuitest
+            appium driver install espresso
+            appium driver install flutter
             appium -v
-            appium &>/dev/null &
+            appium --log appium.log &>/dev/null &
     - name: Run Appium Tests
-      uses: reactivecircus/android-emulator-runner@v1
+      uses: reactivecircus/android-emulator-runner@v2.27.0
       with:
         api-level: ${{ matrix.api-level }}
         target: ${{ matrix.target }}
