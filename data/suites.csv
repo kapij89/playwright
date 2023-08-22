@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","Login: Login to SwagLabs Application with Wrong credentials","1371",""
+"passed","Get User By ID using API: Get User by ID","892",""
+"passed","Login: Login to SwagLabs Application with Correct credentials","23090",""
+"passed","Buy Product: Buy a SwagLabs product successfully","23889",""
