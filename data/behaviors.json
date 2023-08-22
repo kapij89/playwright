@@ -6,33 +6,53 @@
       "name" : "Get User by ID",
       "children" : [ {
         "name" : "Get User by ID",
-        "uid" : "aa8be361345943f9",
+        "uid" : "882b852618de7e59",
         "parentUid" : "eb96a19921a446bc03c949e00c1f7281",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1692688995247,
-          "stop" : 1692688995853,
-          "duration" : 606
+          "start" : 1692730977193,
+          "stop" : 1692730977766,
+          "duration" : 573
         },
         "flaky" : false,
-        "parameters" : [ ]
+        "parameters" : [ "200", "1", "Leanne Graham" ]
       } ],
       "uid" : "eb96a19921a446bc03c949e00c1f7281"
     } ],
     "uid" : "d089f8e8b50687dc3831f3affa1ceb4e"
+  }, {
+    "name" : "Testing mobile app with Appium",
+    "children" : [ {
+      "name" : "Verify on Chrome Mobile Devices",
+      "children" : [ {
+        "name" : "Verify on Chrome Mobile Devices",
+        "uid" : "2c5e6b54393b6833",
+        "parentUid" : "5876f8b6f054b8fa3da53d424bada0ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692730977882,
+          "stop" : 1692730978232,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5876f8b6f054b8fa3da53d424bada0ee"
+    } ],
+    "uid" : "5eeee851d4079850531a702cfaaf48b2"
   }, {
     "name" : "Buy Product",
     "children" : [ {
       "name" : "Buy a SwagLabs product successfully",
       "children" : [ {
         "name" : "Buy a SwagLabs product successfully",
-        "uid" : "11835f620834739d",
+        "uid" : "e89c150a60c72076",
         "parentUid" : "3d76fdc08eddd209385e13b31c0365ff",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1692688995955,
-          "stop" : 1692689016519,
-          "duration" : 20564
+          "start" : 1692730978251,
+          "stop" : 1692730995743,
+          "duration" : 17492
         },
         "flaky" : false,
         "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
@@ -46,13 +66,13 @@
       "name" : "Login to SwagLabs Application with Correct credentials",
       "children" : [ {
         "name" : "Login to SwagLabs Application with Correct credentials",
-        "uid" : "d06322ab3469542d",
+        "uid" : "adf73686592735",
         "parentUid" : "f802acb5d741cc1fd6889ea93644543f",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1692689016531,
-          "stop" : 1692689018082,
-          "duration" : 1551
+          "start" : 1692730995755,
+          "stop" : 1692730997017,
+          "duration" : 1262
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "standard_user" ]
@@ -62,13 +82,13 @@
       "name" : "Login to SwagLabs Application with Wrong credentials",
       "children" : [ {
         "name" : "Login to SwagLabs Application with Wrong credentials",
-        "uid" : "53c47861ae7322f9",
+        "uid" : "fbf8ed74435768b",
         "parentUid" : "4cd2aa7379ca9dca48b0514431df9c9a",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1692689018087,
-          "stop" : 1692689019594,
-          "duration" : 1507
+          "start" : 1692730997020,
+          "stop" : 1692730998149,
+          "duration" : 1129
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "locked_out_user" ]

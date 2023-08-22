@@ -1,61 +1,73 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az551-551",
+    "name" : "fv-az171-626",
     "children" : [ {
-      "name" : "2818@fv-az551-551.main(1)",
+      "name" : "2839@fv-az171-626.main(1)",
       "children" : [ {
-        "name" : "Login to SwagLabs Application with Correct credentials",
-        "uid" : "d06322ab3469542d",
-        "parentUid" : "1e40ae717586bafeb7017d67bc33d61e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692689016531,
-          "stop" : 1692689018082,
-          "duration" : 1551
-        },
-        "flaky" : false,
-        "parameters" : [ "secret_sauce", "standard_user" ]
-      }, {
-        "name" : "Buy a SwagLabs product successfully",
-        "uid" : "11835f620834739d",
-        "parentUid" : "1e40ae717586bafeb7017d67bc33d61e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1692688995955,
-          "stop" : 1692689016519,
-          "duration" : 20564
-        },
-        "flaky" : false,
-        "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
-      }, {
         "name" : "Login to SwagLabs Application with Wrong credentials",
-        "uid" : "53c47861ae7322f9",
-        "parentUid" : "1e40ae717586bafeb7017d67bc33d61e",
-        "status" : "passed",
+        "uid" : "fbf8ed74435768b",
+        "parentUid" : "a3e9e30f18303e2967b4e72a92bb19ec",
+        "status" : "broken",
         "time" : {
-          "start" : 1692689018087,
-          "stop" : 1692689019594,
-          "duration" : 1507
+          "start" : 1692730997020,
+          "stop" : 1692730998149,
+          "duration" : 1129
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "locked_out_user" ]
       }, {
-        "name" : "Get User by ID",
-        "uid" : "aa8be361345943f9",
-        "parentUid" : "1e40ae717586bafeb7017d67bc33d61e",
-        "status" : "passed",
+        "name" : "Login to SwagLabs Application with Correct credentials",
+        "uid" : "adf73686592735",
+        "parentUid" : "a3e9e30f18303e2967b4e72a92bb19ec",
+        "status" : "broken",
         "time" : {
-          "start" : 1692688995247,
-          "stop" : 1692688995853,
-          "duration" : 606
+          "start" : 1692730995755,
+          "stop" : 1692730997017,
+          "duration" : 1262
+        },
+        "flaky" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      }, {
+        "name" : "Get User by ID",
+        "uid" : "882b852618de7e59",
+        "parentUid" : "a3e9e30f18303e2967b4e72a92bb19ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692730977193,
+          "stop" : 1692730977766,
+          "duration" : 573
+        },
+        "flaky" : false,
+        "parameters" : [ "200", "1", "Leanne Graham" ]
+      }, {
+        "name" : "Verify on Chrome Mobile Devices",
+        "uid" : "2c5e6b54393b6833",
+        "parentUid" : "a3e9e30f18303e2967b4e72a92bb19ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692730977882,
+          "stop" : 1692730978232,
+          "duration" : 350
         },
         "flaky" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "Buy a SwagLabs product successfully",
+        "uid" : "e89c150a60c72076",
+        "parentUid" : "a3e9e30f18303e2967b4e72a92bb19ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692730978251,
+          "stop" : 1692730995743,
+          "duration" : 17492
+        },
+        "flaky" : false,
+        "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
       } ],
-      "uid" : "1e40ae717586bafeb7017d67bc33d61e"
+      "uid" : "a3e9e30f18303e2967b4e72a92bb19ec"
     } ],
-    "uid" : "8888b0772ed4d36b42b6e6a9770065b2"
+    "uid" : "3b89d10a74432dad6275c8b9dadee933"
   } ],
   "name" : "timeline"
 }

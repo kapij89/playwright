@@ -1,13 +1,13 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
     "uid" : "14102d61eef2af473312d4f91dec531b",
     "name" : "Login",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     }
@@ -16,9 +16,20 @@
     "name" : "Get User By ID using API",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5eeee851d4079850531a702cfaaf48b2",
+    "name" : "Testing mobile app with Appium",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -27,9 +38,9 @@
     "name" : "Buy Product",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

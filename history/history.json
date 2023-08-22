@@ -1,77 +1,101 @@
 {
-  "bef32f5a7841ac0b0b37eb77d2bdbec8" : {
+  "712331cd443f79ea0299ba9bc8bc8f8f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aa8be361345943f9",
-      "status" : "passed",
+      "uid" : "2c5e6b54393b6833",
+      "status" : "broken",
+      "statusDetails" : "Connection refused (Connection refused)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az171-626', ip: '10.1.0.149', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '11.0.20'\nDriver info: driver.version: AppiumDriver",
       "time" : {
-        "start" : 1692688995247,
-        "stop" : 1692688995853,
-        "duration" : 606
+        "start" : 1692730977882,
+        "stop" : 1692730978232,
+        "duration" : 350
+      }
+    } ]
+  },
+  "6d150e2b392af5f4356574359fa7c079" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "882b852618de7e59",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1692730977193,
+        "stop" : 1692730977766,
+        "duration" : 573
       }
     } ]
   },
   "276b38a1dbee8ce80e4ed3066255978e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53c47861ae7322f9",
-      "status" : "passed",
+      "uid" : "fbf8ed74435768b",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
       "time" : {
-        "start" : 1692689018087,
-        "stop" : 1692689019594,
-        "duration" : 1507
+        "start" : 1692730997020,
+        "stop" : 1692730998149,
+        "duration" : 1129
       }
     } ]
   },
   "a08e5dc16d789a41249766f73e751457" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "11835f620834739d",
-      "status" : "passed",
+      "uid" : "e89c150a60c72076",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
       "time" : {
-        "start" : 1692688995955,
-        "stop" : 1692689016519,
-        "duration" : 20564
+        "start" : 1692730978251,
+        "stop" : 1692730995743,
+        "duration" : 17492
       }
     } ]
   },
   "bd64c0b9befe417a38e4267406c918c4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d06322ab3469542d",
-      "status" : "passed",
+      "uid" : "adf73686592735",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
       "time" : {
-        "start" : 1692689016531,
-        "stop" : 1692689018082,
-        "duration" : 1551
+        "start" : 1692730995755,
+        "stop" : 1692730997017,
+        "duration" : 1262
       }
     } ]
   }
