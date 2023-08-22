@@ -5,9 +5,7 @@ on:
   push:
     branches:
       - main
-env:
-  # Setting an environment variable with the value of a configuration variable
-  env_parallelmode: ${{ vars.PARALLELMODE }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,7 +35,7 @@ jobs:
 
       - name: Mvn Build and Test
         run: |
-          if [ ${{ env_parallelmode }} == 'true' ]; then
+          if [ ${{ vars.PARALLELMODE }} == 'true' ]; then
           echo "Parallel Mode on"
           mvn clean package -Pparallel-enabled
           else
