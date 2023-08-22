@@ -1,12 +1,12 @@
 {
-  "uid" : "7fea1d38c7c006af",
-  "name" : "Login to SwagLabs Application with Correct credentials",
-  "fullName" : "Login: Login to SwagLabs Application with Correct credentials",
-  "historyId" : "bd64c0b9befe417a38e4267406c918c4",
+  "uid" : "f308d1b46cbad944",
+  "name" : "Login to SwagLabs Application with Wrong credentials",
+  "fullName" : "Login: Login to SwagLabs Application with Wrong credentials",
+  "historyId" : "276b38a1dbee8ce80e4ed3066255978e",
   "time" : {
-    "start" : 1692687388599,
-    "stop" : 1692687390200,
-    "duration" : 1601
+    "start" : 1692687617995,
+    "stop" : 1692687619409,
+    "duration" : 1414
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692687388599,
-        "stop" : 1692687389423,
-        "duration" : 824
+        "start" : 1692687617996,
+        "stop" : 1692687618789,
+        "duration" : 793
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,11 +29,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
+      "name" : "When  User logged in the app using username \"locked_out_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692687389600,
-        "stop" : 1692687389835,
-        "duration" : 235
+        "start" : 1692687618985,
+        "stop" : 1692687619115,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,11 +44,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  user should be able to log in",
+      "name" : "Then  User should not get logged in",
       "time" : {
-        "start" : 1692687390023,
-        "stop" : 1692687390034,
-        "duration" : 11
+        "start" : 1692687619241,
+        "stop" : 1692687619247,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,16 +69,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687389423,
-      "stop" : 1692687389600,
-      "duration" : 177
+      "start" : 1692687618790,
+      "stop" : 1692687618985,
+      "duration" : 195
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6febbf474c79d603",
+      "uid" : "ccc139df03d3b901",
       "name" : "Screenshot",
-      "source" : "6febbf474c79d603.png",
+      "source" : "ccc139df03d3b901.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -90,18 +90,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687389836,
-      "stop" : 1692687390023,
-      "duration" : 187
+      "start" : 1692687619115,
+      "stop" : 1692687619241,
+      "duration" : 126
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8d00f1921d6d0911",
+      "uid" : "9563a4990ff80f2f",
       "name" : "Screenshot",
-      "source" : "8d00f1921d6d0911.png",
+      "source" : "9563a4990ff80f2f.png",
       "type" : "image/png",
-      "size" : 148343
+      "size" : 68767
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -111,18 +111,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687390034,
-      "stop" : 1692687390189,
-      "duration" : 155
+      "start" : 1692687619247,
+      "stop" : 1692687619393,
+      "duration" : 146
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2b599701a4a46c29",
+      "uid" : "48d2458c6bf1d1ba",
       "name" : "Screenshot",
-      "source" : "2b599701a4a46c29.png",
+      "source" : "48d2458c6bf1d1ba.png",
       "type" : "image/png",
-      "size" : 148343
+      "size" : 68767
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -132,9 +132,9 @@
   }, {
     "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692687390189,
-      "stop" : 1692687390199,
-      "duration" : 10
+      "start" : 1692687619393,
+      "stop" : 1692687619408,
+      "duration" : 15
     },
     "status" : "passed",
     "steps" : [ ],
@@ -147,8 +147,8 @@
   }, {
     "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692687390199,
-      "stop" : 1692687390200,
+      "start" : 1692687619408,
+      "stop" : 1692687619409,
       "duration" : 1
     },
     "status" : "passed",
@@ -161,17 +161,20 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "SmokeTest"
+  }, {
     "name" : "host",
-    "value" : "fv-az406-606"
+    "value" : "fv-az256-29"
   }, {
     "name" : "thread",
-    "value" : "2795@fv-az406-606.main(1)"
+    "value" : "2760@fv-az256-29.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login"
   }, {
     "name" : "story",
-    "value" : "Login to SwagLabs Application with Correct credentials"
+    "value" : "Login to SwagLabs Application with Wrong credentials"
   }, {
     "name" : "package",
     "value" : "src.test.resources.features.WebUI.Login"
@@ -180,7 +183,7 @@
     "value" : "Login"
   }, {
     "name" : "testClass",
-    "value" : "Login to SwagLabs Application with Correct credentials"
+    "value" : "Login to SwagLabs Application with Wrong credentials"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -199,7 +202,7 @@
     "value" : "secret_sauce"
   }, {
     "name" : "UserName",
-    "value" : "standard_user"
+    "value" : "locked_out_user"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -208,8 +211,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "SmokeTest" ]
   },
-  "source" : "7fea1d38c7c006af.json",
-  "parameterValues" : [ "secret_sauce", "standard_user" ]
+  "source" : "f308d1b46cbad944.json",
+  "parameterValues" : [ "secret_sauce", "locked_out_user" ]
 }

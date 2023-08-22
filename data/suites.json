@@ -4,13 +4,13 @@
     "name" : "Get User By ID using API",
     "children" : [ {
       "name" : "Get User by ID",
-      "uid" : "562c16b23114a4db",
+      "uid" : "b34828fee151ab84",
       "parentUid" : "57fbb44286eab7da422eda00040b55d1",
       "status" : "passed",
       "time" : {
-        "start" : 1692687364064,
-        "stop" : 1692687364837,
-        "duration" : 773
+        "start" : 1692687596501,
+        "stop" : 1692687597157,
+        "duration" : 656
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,13 +20,13 @@
     "name" : "Buy Product",
     "children" : [ {
       "name" : "Buy a SwagLabs product successfully",
-      "uid" : "ac6b22609f3c5a15",
+      "uid" : "bd5548672c3cc125",
       "parentUid" : "e529482d1997a3723680ac764568aea0",
       "status" : "passed",
       "time" : {
-        "start" : 1692687364943,
-        "stop" : 1692687388590,
-        "duration" : 23647
+        "start" : 1692687597235,
+        "stop" : 1692687616324,
+        "duration" : 19089
       },
       "flaky" : false,
       "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
@@ -36,25 +36,25 @@
     "name" : "Login",
     "children" : [ {
       "name" : "Login to SwagLabs Application with Correct credentials",
-      "uid" : "7fea1d38c7c006af",
+      "uid" : "9fdef3f02d8573d",
       "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
       "status" : "passed",
       "time" : {
-        "start" : 1692687388599,
-        "stop" : 1692687390200,
-        "duration" : 1601
+        "start" : 1692687616347,
+        "stop" : 1692687617993,
+        "duration" : 1646
       },
       "flaky" : false,
       "parameters" : [ "secret_sauce", "standard_user" ]
     }, {
       "name" : "Login to SwagLabs Application with Wrong credentials",
-      "uid" : "f69dd44c4a14539c",
+      "uid" : "f308d1b46cbad944",
       "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
       "status" : "passed",
       "time" : {
-        "start" : 1692687390207,
-        "stop" : 1692687391732,
-        "duration" : 1525
+        "start" : 1692687617995,
+        "stop" : 1692687619409,
+        "duration" : 1414
       },
       "flaky" : false,
       "parameters" : [ "secret_sauce", "locked_out_user" ]
