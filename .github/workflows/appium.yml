@@ -25,7 +25,7 @@ jobs:
       with:
        node-version: '12'
     - run: |
-            npm install -g appium
+            npm install -g appium@v1.20.2
             appium driver install xcuitest
             appium driver install espresso
             appium driver install flutter
