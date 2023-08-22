@@ -5,7 +5,9 @@ on:
   push:
     branches:
       - main
-
+env:
+  # Setting an environment variable with the value of a configuration variable
+  par_var: ${{ vars.PARALLELMODE }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,7 +37,12 @@ jobs:
 
       - name: Mvn Build and Test
         run: |
-          mvn clean package
+          if [ ${{ par_var }} == 'true' ]; then
+          echo "Parallel Mode on"
+          mvn clean package -Pparallel-enabled
+          else
+          echo "is neither MAIN nor DEV branch"
+          mvn clean package -Pparallel-disabled
         env:
           CI: true
       - name: Allure report generate
