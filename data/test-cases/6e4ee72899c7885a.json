@@ -1,12 +1,12 @@
 {
-  "uid" : "b34828fee151ab84",
+  "uid" : "6e4ee72899c7885a",
   "name" : "Get User by ID",
   "fullName" : "Get User By ID using API: Get User by ID",
   "historyId" : "bef32f5a7841ac0b0b37eb77d2bdbec8",
   "time" : {
-    "start" : 1692687596501,
-    "stop" : 1692687597157,
-    "duration" : 656
+    "start" : 1692687793517,
+    "stop" : 1692687794214,
+    "duration" : 697
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  the API base URL is \"https://jsonplaceholder.typicode.com\"",
       "time" : {
-        "start" : 1692687596504,
-        "stop" : 1692687596804,
-        "duration" : 300
+        "start" : 1692687793519,
+        "stop" : 1692687793860,
+        "duration" : 341
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,9 +31,9 @@
     }, {
       "name" : "When  I send a GET request to \"/users/1\"",
       "time" : {
-        "start" : 1692687596808,
-        "stop" : 1692687597145,
-        "duration" : 337
+        "start" : 1692687793864,
+        "stop" : 1692687794194,
+        "duration" : 330
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,9 +46,9 @@
     }, {
       "name" : "Then  the response status code should be 200",
       "time" : {
-        "start" : 1692687597146,
-        "stop" : 1692687597147,
-        "duration" : 1
+        "start" : 1692687794195,
+        "stop" : 1692687794202,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,9 +61,9 @@
     }, {
       "name" : "And  the response should contain \"Leanne Graham\"",
       "time" : {
-        "start" : 1692687597148,
-        "stop" : 1692687597153,
-        "duration" : 5
+        "start" : 1692687794203,
+        "stop" : 1692687794210,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,8 +84,8 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687596806,
-      "stop" : 1692687596807,
+      "start" : 1692687793862,
+      "stop" : 1692687793863,
       "duration" : 1
     },
     "status" : "passed",
@@ -99,8 +99,8 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687597145,
-      "stop" : 1692687597145,
+      "start" : 1692687794195,
+      "stop" : 1692687794195,
       "duration" : 0
     },
     "status" : "passed",
@@ -114,8 +114,8 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687597148,
-      "stop" : 1692687597148,
+      "start" : 1692687794202,
+      "stop" : 1692687794202,
       "duration" : 0
     },
     "status" : "passed",
@@ -129,8 +129,23 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692687597153,
-      "stop" : 1692687597153,
+      "start" : 1692687794210,
+      "stop" : 1692687794211,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ApiStepDefinitions.closeResponse()",
+    "time" : {
+      "start" : 1692687794211,
+      "stop" : 1692687794211,
       "duration" : 0
     },
     "status" : "passed",
@@ -144,23 +159,8 @@
   }, {
     "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692687597153,
-      "stop" : 1692687597153,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "ApiStepDefinitions.closeResponse()",
-    "time" : {
-      "start" : 1692687597154,
-      "stop" : 1692687597154,
+      "start" : 1692687794211,
+      "stop" : 1692687794211,
       "duration" : 0
     },
     "status" : "passed",
@@ -177,10 +177,10 @@
     "value" : "userid"
   }, {
     "name" : "host",
-    "value" : "fv-az256-29"
+    "value" : "fv-az551-551"
   }, {
     "name" : "thread",
-    "value" : "2760@fv-az256-29.main(1)"
+    "value" : "2799@fv-az551-551.main(1)"
   }, {
     "name" : "feature",
     "value" : "Get User By ID using API"
@@ -219,6 +219,6 @@
     "categories" : [ ],
     "tags" : [ "userid" ]
   },
-  "source" : "b34828fee151ab84.json",
+  "source" : "6e4ee72899c7885a.json",
   "parameterValues" : [ ]
 }
