@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c6b28c24eb9c2005",
+  "name" : "Tweet using UI",
+  "time" : {
+    "start" : 1692772012108,
+    "stop" : 1692772077927,
+    "duration" : 65819
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f5c0f4ac04742d8e",
+  "name" : "Tweet using UI",
+  "time" : {
+    "start" : 1692771861344,
+    "stop" : 1692771946208,
+    "duration" : 84864
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c5ec9f23538a815",
+  "name" : "Tweet using UI",
+  "time" : {
+    "start" : 1692771946314,
+    "stop" : 1692772012103,
+    "duration" : 65789
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

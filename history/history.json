@@ -1,0 +1,62 @@
+{
+  "809674b2459a40d651d42a5dc287fb0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6b28c24eb9c2005",
+      "status" : "broken",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-1835215437789297426/package/lib/server/progress.js:88:26)\n    at Frame.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/frames.js:1047:23)\n    at FrameDispatcher.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/frameDispatcher.js:163:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "time" : {
+        "start" : 1692772012108,
+        "stop" : 1692772077927,
+        "duration" : 65819
+      }
+    } ]
+  },
+  "9a51bc087d49fb2d0089e2526f15d071" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c5ec9f23538a815",
+      "status" : "broken",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-1835215437789297426/package/lib/server/progress.js:88:26)\n    at Frame.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/frames.js:1047:23)\n    at FrameDispatcher.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/frameDispatcher.js:163:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "time" : {
+        "start" : 1692771946314,
+        "stop" : 1692772012103,
+        "duration" : 65789
+      }
+    } ]
+  },
+  "6662bf0f274334d2d360954e361b41a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5c0f4ac04742d8e",
+      "status" : "broken",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-1835215437789297426/package/lib/server/progress.js:88:26)\n    at Frame.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/frames.js:1047:23)\n    at FrameDispatcher.fill (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/frameDispatcher.js:163:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-1835215437789297426/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "time" : {
+        "start" : 1692771861344,
+        "stop" : 1692771946208,
+        "duration" : 84864
+      }
+    } ]
+  }
+}
