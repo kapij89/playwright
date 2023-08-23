@@ -18,9 +18,9 @@ import utils.ConfigReader;
 @CucumberOptions(
         features = "src/test/resources/features/",
         glue = {"stepdefinitions"},
-        plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports.html",
+        plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports",
         		 "io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "rerun:target/rerun.txt"  },
-        tags=""
+        tags="@UI"
         		// Save Failed test scenarios in rerun.txt file}
         
 )
