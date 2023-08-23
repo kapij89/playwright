@@ -6,6 +6,7 @@ import com.microsoft.playwright.Page;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.AfterStep;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -14,15 +15,17 @@ import pages.BasePage;
 import pages.CheckoutPage;
 import pages.ItemsPage;
 import pages.LoginPage;
+import pages.twitterloginandtweet;
 import utils.ConfigReader;
 //import com.epam.reportportal.example.cucumber6.Belly;
 
-public class steps extends BasePage{
+public class UIStepDefinitions extends BasePage{
 	
 //	private final Belly belly = new Belly();
 	LoginPage loginPage;
 	ItemsPage itemsPage;
 	CheckoutPage checkoutPage;
+	pages.twitterloginandtweet twitterlogin;
 	  boolean captureScreenshot;
 	Page page;
 
@@ -46,6 +49,34 @@ public class steps extends BasePage{
 			e.printStackTrace();
 		}
 	}
+	
+	
+	@Given("^User launched Twitter$")
+	public void user_launched_twitter() {
+		 captureScreenshot = true;
+		try {
+//			BrowserContext context = browser.newContext();
+//			context.tracing().start(new Tracing.StartOptions()
+//					  .setScreenshots(true)
+//					  .setSnapshots(true));
+			page = createPlaywrightPageInstance(ConfigReader.getProperty("browser"));
+			page.navigate(ConfigReader.getProperty("twitterURL"));
+			twitterlogin =new twitterloginandtweet(page);
+		
+			twitterlogin.twitterlogin(ConfigReader.getProperty("twitterusername"), "Redapple@123");
+		    
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@And("User Tweets TestAutothon {string} over UI {string}")
+	public void tweet_over_twitter(String unique_text,String Post){
+		twitterlogin =new pages.twitterloginandtweet(page);
+		twitterlogin.tweet(unique_text,Post);
+	}
+	
 	
 	@When("User logged in the app using username {string} and password {string}")
 	public void user_logged_in_the_app_using_username_and_password(String username, String password) {
