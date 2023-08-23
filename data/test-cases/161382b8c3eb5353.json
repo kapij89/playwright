@@ -1,12 +1,12 @@
 {
-  "uid" : "94f01f76fa2bc503",
-  "name" : "Login to SwagLabs Application with Wrong credentials",
-  "fullName" : "Login: Login to SwagLabs Application with Wrong credentials",
-  "historyId" : "276b38a1dbee8ce80e4ed3066255978e",
+  "uid" : "161382b8c3eb5353",
+  "name" : "Login to SwagLabs Application with Correct credentials",
+  "fullName" : "Login: Login to SwagLabs Application with Correct credentials",
+  "historyId" : "bd64c0b9befe417a38e4267406c918c4",
   "time" : {
-    "start" : 1692758975033,
-    "stop" : 1692758976869,
-    "duration" : 1836
+    "start" : 1692759130668,
+    "stop" : 1692759132299,
+    "duration" : 1631
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692758975033,
-        "stop" : 1692758976124,
-        "duration" : 1091
+        "start" : 1692759130668,
+        "stop" : 1692759131530,
+        "duration" : 862
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,11 +29,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When  User logged in the app using username \"locked_out_user\" and password \"secret_sauce\"",
+      "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692758976318,
-        "stop" : 1692758976533,
-        "duration" : 215
+        "start" : 1692759131718,
+        "stop" : 1692759131976,
+        "duration" : 258
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,10 +44,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  User should not get logged in",
+      "name" : "Then  user should be able to log in",
       "time" : {
-        "start" : 1692758976691,
-        "stop" : 1692758976702,
+        "start" : 1692759132131,
+        "stop" : 1692759132142,
         "duration" : 11
       },
       "status" : "passed",
@@ -69,16 +69,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692758976124,
-      "stop" : 1692758976318,
-      "duration" : 194
+      "start" : 1692759131530,
+      "stop" : 1692759131718,
+      "duration" : 188
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "171441b52aaa320a",
+      "uid" : "859871be92c8f09b",
       "name" : "Screenshot",
-      "source" : "171441b52aaa320a.png",
+      "source" : "859871be92c8f09b.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -90,18 +90,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692758976533,
-      "stop" : 1692758976691,
-      "duration" : 158
+      "start" : 1692759131976,
+      "stop" : 1692759132131,
+      "duration" : 155
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "77467f88690d6feb",
+      "uid" : "99cb8790a723b8b4",
       "name" : "Screenshot",
-      "source" : "77467f88690d6feb.png",
+      "source" : "99cb8790a723b8b4.png",
       "type" : "image/png",
-      "size" : 68767
+      "size" : 148343
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -111,18 +111,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692758976703,
-      "stop" : 1692758976844,
-      "duration" : 141
+      "start" : 1692759132143,
+      "stop" : 1692759132282,
+      "duration" : 139
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7199a938d91e8771",
+      "uid" : "1d3937977f394969",
       "name" : "Screenshot",
-      "source" : "7199a938d91e8771.png",
+      "source" : "1d3937977f394969.png",
       "type" : "image/png",
-      "size" : 68767
+      "size" : 148343
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -130,11 +130,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "steps.tearDown(Scenario)",
+    "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692758976844,
-      "stop" : 1692758976868,
-      "duration" : 24
+      "start" : 1692759132282,
+      "stop" : 1692759132282,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -145,11 +145,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "ApiStepDefinitions.closeResponse()",
+    "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692758976868,
-      "stop" : 1692758976869,
-      "duration" : 1
+      "start" : 1692759132283,
+      "stop" : 1692759132299,
+      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -161,20 +161,17 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "SmokeTest"
-  }, {
     "name" : "host",
-    "value" : "fv-az439-686"
+    "value" : "fv-az557-653"
   }, {
     "name" : "thread",
-    "value" : "2768@fv-az439-686.main(1)"
+    "value" : "2748@fv-az557-653.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login"
   }, {
     "name" : "story",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Login to SwagLabs Application with Correct credentials"
   }, {
     "name" : "package",
     "value" : "src.test.resources.features.WebUI.Login"
@@ -183,7 +180,7 @@
     "value" : "Login"
   }, {
     "name" : "testClass",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Login to SwagLabs Application with Correct credentials"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -202,7 +199,7 @@
     "value" : "secret_sauce"
   }, {
     "name" : "UserName",
-    "value" : "locked_out_user"
+    "value" : "standard_user"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -211,8 +208,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "SmokeTest" ]
+    "tags" : [ ]
   },
-  "source" : "94f01f76fa2bc503.json",
-  "parameterValues" : [ "secret_sauce", "locked_out_user" ]
+  "source" : "161382b8c3eb5353.json",
+  "parameterValues" : [ "secret_sauce", "standard_user" ]
 }
