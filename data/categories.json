@@ -3,45 +3,45 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-17668886423745181836/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-17668886423745181836/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-17668886423745181836/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-17668886423745181836/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "name" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-6746815423117958532/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-6746815423117958532/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-6746815423117958532/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-6746815423117958532/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
       "children" : [ {
         "name" : "Tweet using UI",
-        "uid" : "3df73a3103692d28",
-        "parentUid" : "3fd0f1fb778527d4e2f86c942c09d0e2",
+        "uid" : "e358c10ff53bb40",
+        "parentUid" : "0dbb5937c95e8ea79883a656378eb815",
         "status" : "broken",
         "time" : {
-          "start" : 1692781387212,
-          "stop" : 1692781481554,
-          "duration" : 94342
+          "start" : 1692781870715,
+          "stop" : 1692781923492,
+          "duration" : 52777
         },
         "flaky" : false,
         "parameters" : [ "so are we the expleons climbing the summit", "1" ]
       }, {
         "name" : "Tweet using UI",
-        "uid" : "bcd53cfc1a0cf42f",
-        "parentUid" : "3fd0f1fb778527d4e2f86c942c09d0e2",
+        "uid" : "27ff4d660b62a3fc",
+        "parentUid" : "0dbb5937c95e8ea79883a656378eb815",
         "status" : "broken",
         "time" : {
-          "start" : 1692781481639,
-          "stop" : 1692781547812,
-          "duration" : 66173
+          "start" : 1692781923582,
+          "stop" : 1692781959746,
+          "duration" : 36164
         },
         "flaky" : false,
         "parameters" : [ "Joyful to be part of  @stepin_forum @verity_software", "2" ]
       }, {
         "name" : "Tweet using UI",
-        "uid" : "8c02586057b1748b",
-        "parentUid" : "3fd0f1fb778527d4e2f86c942c09d0e2",
+        "uid" : "805f9cfdff0c9f77",
+        "parentUid" : "0dbb5937c95e8ea79883a656378eb815",
         "status" : "broken",
         "time" : {
-          "start" : 1692781547826,
-          "stop" : 1692781614070,
-          "duration" : 66244
+          "start" : 1692781959750,
+          "stop" : 1692781995601,
+          "duration" : 35851
         },
         "flaky" : false,
         "parameters" : [ "Hardwork paves off", "3" ]
       } ],
-      "uid" : "3fd0f1fb778527d4e2f86c942c09d0e2"
+      "uid" : "0dbb5937c95e8ea79883a656378eb815"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
