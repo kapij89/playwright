@@ -6,13 +6,13 @@
       "name" : "API.Get User By ID using API",
       "children" : [ {
         "name" : "Get User by ID",
-        "uid" : "cc3c8ef302ffcab8",
+        "uid" : "a54b85c6c3c983a5",
         "parentUid" : "9a2dda775389179d5967b7c0c7c6f1b3",
         "status" : "passed",
         "time" : {
-          "start" : 1692731204405,
-          "stop" : 1692731205068,
-          "duration" : 663
+          "start" : 1692758218470,
+          "stop" : 1692758219080,
+          "duration" : 610
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -24,13 +24,13 @@
         "name" : "Buy Product",
         "children" : [ {
           "name" : "Buy a SwagLabs product successfully",
-          "uid" : "6a01c2e4cf9fe1f",
+          "uid" : "69485e9b34db8635",
           "parentUid" : "18b53803211f0ba3b3321d0e21aea04a",
           "status" : "passed",
           "time" : {
-            "start" : 1692731205178,
-            "stop" : 1692731223954,
-            "duration" : 18776
+            "start" : 1692758219176,
+            "stop" : 1692758240330,
+            "duration" : 21154
           },
           "flaky" : false,
           "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
@@ -40,25 +40,25 @@
         "name" : "Login",
         "children" : [ {
           "name" : "Login to SwagLabs Application with Correct credentials",
-          "uid" : "bca325ab3e68e42f",
+          "uid" : "10613a6721be9746",
           "parentUid" : "c89abb3eb947aaab7cf43093257b2367",
           "status" : "passed",
           "time" : {
-            "start" : 1692731223965,
-            "stop" : 1692731225453,
-            "duration" : 1488
+            "start" : 1692758240339,
+            "stop" : 1692758241852,
+            "duration" : 1513
           },
           "flaky" : false,
           "parameters" : [ "secret_sauce", "standard_user" ]
         }, {
           "name" : "Login to SwagLabs Application with Wrong credentials",
-          "uid" : "712b8a68c4a5275e",
+          "uid" : "6d917a0fc8af37e",
           "parentUid" : "c89abb3eb947aaab7cf43093257b2367",
           "status" : "passed",
           "time" : {
-            "start" : 1692731225458,
-            "stop" : 1692731226827,
-            "duration" : 1369
+            "start" : 1692758241854,
+            "stop" : 1692758243274,
+            "duration" : 1420
           },
           "flaky" : false,
           "parameters" : [ "secret_sauce", "locked_out_user" ]
