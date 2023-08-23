@@ -72,7 +72,7 @@ public class UIStepDefinitions extends BasePage{
 	}
 	
 	@And("User Tweets TestAutothon {string} over UI {string}")
-	public void tweet_over_twitter(String unique_text,String Post){
+	public void tweet_over_twitter(String unique_text,String Post) throws InterruptedException{
 		twitterlogin =new pages.twitterloginandtweet(page);
 		twitterlogin.tweet(unique_text,Post);
 	}
