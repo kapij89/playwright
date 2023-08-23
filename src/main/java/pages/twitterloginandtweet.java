@@ -38,7 +38,7 @@ public class twitterloginandtweet {
               System.err.println("An error occurred: " + e.getMessage());
           }
 	    */
-	      page.getByLabel("Password", new Page.GetByLabelOptions().setExact(true)).fill("Redapple@123");
+	      page.getByLabel("Password").click();
 	      page.getByTestId("LoginForm_Login_Button").click();
 //	      page.navigate("https://twitter.com/home");
 	}
