@@ -14,11 +14,12 @@ public class twitterloginandtweet {
 		  this.page = page;
    }
 	  
-	  public void twitterlogin(String username,String password) {
+	  public void twitterlogin(String username,String password) throws InterruptedException {
 		  page.getByLabel("Phone, email, or username").click();
 		  page.getByLabel("Phone, email, or username").fill(username);
 //	      page.fill("Phone, email, or username", username);
 	      page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Next")).click();
+	      Thread.sleep(2000);
 	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
           page.getByTestId("ocfEnterTextNextButton").click();
 //	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
