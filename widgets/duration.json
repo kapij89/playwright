@@ -1,30 +1,30 @@
 [ {
-  "uid" : "376ba0a84cfe4e49",
+  "uid" : "2797cc536a47d27d",
   "name" : "Tweet using UI",
   "time" : {
-    "start" : 1692772614220,
-    "stop" : 1692772677372,
-    "duration" : 63152
+    "start" : 1692773369206,
+    "stop" : 1692773433730,
+    "duration" : 64524
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "40767a6a86a781ca",
+  "uid" : "d42753df2c7d1dfd",
   "name" : "Tweet using UI",
   "time" : {
-    "start" : 1692772550757,
-    "stop" : 1692772614215,
-    "duration" : 63458
+    "start" : 1692773272037,
+    "stop" : 1692773369063,
+    "duration" : 97026
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "555b03a69fed8a66",
+  "uid" : "f9199db92a46b298",
   "name" : "Tweet using UI",
   "time" : {
-    "start" : 1692772472605,
-    "stop" : 1692772550589,
-    "duration" : 77984
+    "start" : 1692773433738,
+    "stop" : 1692773498348,
+    "duration" : 64610
   },
   "status" : "broken",
   "severity" : "normal"
