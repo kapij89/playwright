@@ -14,12 +14,11 @@ public class twitterloginandtweet {
 		  this.page = page;
    }
 	  
-	  public void twitterlogin(String username,String password) throws InterruptedException {
+	  public void twitterlogin(String username,String password) {
 		  page.getByLabel("Phone, email, or username").click();
 		  page.getByLabel("Phone, email, or username").fill(username);
 //	      page.fill("Phone, email, or username", username);
 	      page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Next")).click();
-	      Thread.sleep(2000);
 	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
           page.getByTestId("ocfEnterTextNextButton").click();
 //	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
@@ -39,7 +38,7 @@ public class twitterloginandtweet {
               System.err.println("An error occurred: " + e.getMessage());
           }
 	    */
-	      page.getByLabel("Password").click();
+	      page.getByLabel("Password", new Page.GetByLabelOptions().setExact(true)).fill("Redapple@123");
 	      page.getByTestId("LoginForm_Login_Button").click();
 //	      page.navigate("https://twitter.com/home");
 	}

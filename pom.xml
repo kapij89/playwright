@@ -22,8 +22,8 @@
 		<maven-failsafe-plugin.version>3.0.0-M3</maven-failsafe-plugin.version>
 		<io.rest-assured-version>4.0.0</io.rest-assured-version>
 		<test.config.path>src/test/resources/config/config.properties</test.config.path>
-		<!-- <parallelEnabled>${readParallelEnabled}</parallelEnabled>
-		<parallelConfig>${parallelEnabled == 'true' ? 'methods' : 'none'}</parallelConfig> -->
+		<!-- <parallelEnabled>${readParallelEnabled}</parallelEnabled> <parallelConfig>${parallelEnabled 
+			== 'true' ? 'methods' : 'none'}</parallelConfig> -->
 	</properties>
 	<dependencies>
 
@@ -33,6 +33,12 @@
 			<artifactId>cucumber-junit</artifactId>
 			<version>${cucumber-junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -139,34 +145,53 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.22</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.percy/percy-java-selenium -->
+		<dependency>
+			<groupId>io.percy</groupId>
+			<artifactId>percy-java-selenium</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+<!-- Dependency for making HTTP requests -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
+        
+        <!-- Dependency for JSON processing -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.12.5</version>
+        </dependency>
 	</dependencies>
 
-<profiles>
-    <profile>
-        <id>parallel-enabled</id>
-        <activation>
-            <property>
-                <name>parallelEnabled</name>
-                <value>true</value>
-            </property>
-        </activation>
-        <properties>
-            <surefire.parallel>methods</surefire.parallel>
-        </properties>
-    </profile>
-    <profile>
-        <id>parallel-disabled</id>
-        <activation>
-            <property>
-                <name>parallelEnabled</name>
-                <value>false</value>
-            </property>
-        </activation>
-        <properties>
-            <surefire.parallel>none</surefire.parallel>
-        </properties>
-    </profile>
-</profiles>
+	<profiles>
+		<profile>
+			<id>parallel-enabled</id>
+			<activation>
+				<property>
+					<name>parallelEnabled</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<properties>
+				<surefire.parallel>methods</surefire.parallel>
+			</properties>
+		</profile>
+		<profile>
+			<id>parallel-disabled</id>
+			<activation>
+				<property>
+					<name>parallelEnabled</name>
+					<value>false</value>
+				</property>
+			</activation>
+			<properties>
+				<surefire.parallel>none</surefire.parallel>
+			</properties>
+		</profile>
+	</profiles>
 
 	<build>
 		<plugins>
@@ -195,7 +220,7 @@
 				<version>${maven-surefire-plugin.version}</version>
 				<configuration>
 					<parallel>${surefire.parallel}</parallel>
-               		 <threadCount>${threadCount}</threadCount>
+					<threadCount>${threadCount}</threadCount>
 					<testFailureIgnore>true</testFailureIgnore>
 					<reportsDirectory>target/results/surefire-reports</reportsDirectory>
 					<includes>
