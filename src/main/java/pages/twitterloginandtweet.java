@@ -19,8 +19,8 @@ public class twitterloginandtweet {
 		  page.getByLabel("Phone, email, or username").fill(username);
 //	      page.fill("Phone, email, or username", username);
 	      page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Next")).click();
-	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
-              page.getByTestId("ocfEnterTextNextButton").click();
+	     // page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
+             // page.getByTestId("ocfEnterTextNextButton").click();
 //	      page.getByTestId("ocfEnterTextTextInput").fill("9994448594");
 //	      page.getByTestId("ocfEnterTextTextInput").click();
 /*	      try {
