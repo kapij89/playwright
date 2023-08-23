@@ -6,13 +6,13 @@
       "name" : "Get User by ID",
       "children" : [ {
         "name" : "Get User by ID",
-        "uid" : "a54b85c6c3c983a5",
+        "uid" : "c9a49ee0333b95b2",
         "parentUid" : "eb96a19921a446bc03c949e00c1f7281",
         "status" : "passed",
         "time" : {
-          "start" : 1692758218470,
-          "stop" : 1692758219080,
-          "duration" : 610
+          "start" : 1692758949721,
+          "stop" : 1692758950434,
+          "duration" : 713
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -26,13 +26,13 @@
       "name" : "Buy a SwagLabs product successfully",
       "children" : [ {
         "name" : "Buy a SwagLabs product successfully",
-        "uid" : "69485e9b34db8635",
+        "uid" : "511facfbbe672244",
         "parentUid" : "3d76fdc08eddd209385e13b31c0365ff",
         "status" : "passed",
         "time" : {
-          "start" : 1692758219176,
-          "stop" : 1692758240330,
-          "duration" : 21154
+          "start" : 1692758950573,
+          "stop" : 1692758972937,
+          "duration" : 22364
         },
         "flaky" : false,
         "parameters" : [ "Ashish", "Ghosh", "secret_sauce", "Sauce Labs Fleece Jacket", "standard_user", "1181" ]
@@ -46,13 +46,13 @@
       "name" : "Login to SwagLabs Application with Correct credentials",
       "children" : [ {
         "name" : "Login to SwagLabs Application with Correct credentials",
-        "uid" : "10613a6721be9746",
+        "uid" : "133d85bbf4a9a240",
         "parentUid" : "f802acb5d741cc1fd6889ea93644543f",
         "status" : "passed",
         "time" : {
-          "start" : 1692758240339,
-          "stop" : 1692758241852,
-          "duration" : 1513
+          "start" : 1692758972957,
+          "stop" : 1692758975025,
+          "duration" : 2068
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "standard_user" ]
@@ -62,13 +62,13 @@
       "name" : "Login to SwagLabs Application with Wrong credentials",
       "children" : [ {
         "name" : "Login to SwagLabs Application with Wrong credentials",
-        "uid" : "6d917a0fc8af37e",
+        "uid" : "94f01f76fa2bc503",
         "parentUid" : "4cd2aa7379ca9dca48b0514431df9c9a",
         "status" : "passed",
         "time" : {
-          "start" : 1692758241854,
-          "stop" : 1692758243274,
-          "duration" : 1420
+          "start" : 1692758975033,
+          "stop" : 1692758976869,
+          "duration" : 1836
         },
         "flaky" : false,
         "parameters" : [ "secret_sauce", "locked_out_user" ]
