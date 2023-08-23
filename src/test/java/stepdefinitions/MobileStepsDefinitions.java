@@ -44,8 +44,8 @@ public class MobileStepsDefinitions  extends BasePage{
     	
     	  DesiredCapabilities capabilites = new DesiredCapabilities();
 
-          capabilites.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
-          capabilites.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+          capabilites.setCapability(MobileCapabilityType.DEVICE_NAME, "RFCT423RSDX");
+          capabilites.setCapability(MobileCapabilityType.UDID, "RFCT423RSDX");
           capabilites.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
 //          capabilites.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
           capabilites.setCapability("chromedriverExecutable", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
