@@ -1,5 +1,5 @@
 
-name: Mobile-Tesing-CI
+name: Mobile-Tesing-local-CI
 
 on:
   push:
