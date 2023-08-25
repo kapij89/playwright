@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "866ede890a77a814",
+      "uid" : "12ef6559922efd15",
       "status" : "broken",
-      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-5054188810760707365/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-5054188810760707365/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-9240543400446397177/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-9240543400446397177/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
       "time" : {
-        "start" : 1692782576920,
-        "stop" : 1692782642092,
-        "duration" : 65172
+        "start" : 1692959666422,
+        "stop" : 1692959731933,
+        "duration" : 65511
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c66892445de6097",
+      "uid" : "5c140d1b31fc8c12",
       "status" : "broken",
-      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-5054188810760707365/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-5054188810760707365/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-9240543400446397177/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-9240543400446397177/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
       "time" : {
-        "start" : 1692782511300,
-        "stop" : 1692782576916,
-        "duration" : 65616
+        "start" : 1692959600651,
+        "stop" : 1692959666418,
+        "duration" : 65767
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "710d8f6ace51e6c1",
+      "uid" : "46841b6d98f67c2e",
       "status" : "broken",
-      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-5054188810760707365/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-5054188810760707365/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-5054188810760707365/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "statusDetails" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-9240543400446397177/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-9240543400446397177/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-9240543400446397177/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
       "time" : {
-        "start" : 1692782461127,
-        "stop" : 1692782511190,
-        "duration" : 50063
+        "start" : 1692959552149,
+        "stop" : 1692959600535,
+        "duration" : 48386
       }
     } ]
   }
