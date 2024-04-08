@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b0dd96ecc5a086ac",
+  "name" : "Buy a SwagLabs product successfully",
+  "time" : {
+    "start" : 1712572186325,
+    "stop" : 1712572203632,
+    "duration" : 17307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
