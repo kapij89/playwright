@@ -20,7 +20,7 @@ import utils.ConfigReader;
         glue = {"stepdefinitions"},
         plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports",
         		 "io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "rerun:target/rerun.txt"  },
-        tags="@UI"
+        tags="@End2End"
         		// Save Failed test scenarios in rerun.txt file}
         
 )
